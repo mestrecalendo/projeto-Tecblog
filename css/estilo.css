@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #e6e6e6;
+
+}
+.branco{
+	color: #FFF;
+}
+
+#cabeçalho{
+	background-color: #f7b600;
+	text-align: center;
+	padding: 15px;
+}
+
+#logo, #menu{
+	padding: 10px;
+
+}
+
+h1{
+	font-size: 2.5em;
+}
+
+h2{
+	font-size: 1.8em;
+}
+
+h3{
+	background: #CCC;
+	color: #747175;
+	padding: 5px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	padding: 8px 12px;
+
+}
+
+a:link, a:visited{
+	color: #f7b600;
+}
+
+a:hover{
+	color: #FFF;
+	background: #f7b600;
+}
+
+#cabeçalho a:link, #cabeçalho a:visited{
+	color: #FFF;
+}
+#cabeçalho a:hover{
+	color: #f7b600;
+	background: #FFF;
+}
+
+#conteudo-principal{
+	width: 920px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#conteudo-noticias{
+	width: 650px;
+	float: left;
+	
+}
+
+#conteudo-lateral{
+	width: 250px;
+	float: right;
+
+}
+
+.noticia{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #FFF;
+}
+
+.texto-noticia{
+	font-size: 0.9em;
+
+}
+
+
+.data-noticia{
+	font-size: 0.8em;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+
+.noticia-lateral{
+	padding: 10px;
+	margin-bottom: 10px;
+	background: #FFF
+
+}
+
+
+#rodape{
+	clear: both;
+	background: #CCC;
+	padding: 15px;
+	text-align: center;
+
+}
